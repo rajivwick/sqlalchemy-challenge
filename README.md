@@ -18,3 +18,15 @@ Connecting to this file via the power of the greate sqlalchemy library untilizin
 
 We can now reference the tables using pandas and model using matplotlib to gain further insight into helping plan the perfect holiday. Raining days are best kept for home, on holiday the sunny weather allow for activites and offer more choice.
 
+The following api extentions will output a json file containging the data specified:
+        All Data on dates and the corrosponding precipitation readings 
+        "/api/v1.0/precipitation"
+        A json list of stations 
+        "/api/v1.0/stations"
+        
+        "/api/v1.0/tobs"
+        
+        "/api/v1.0/(start)"
+        
+        "/api/v1.0/(start)/(end)"
+        
